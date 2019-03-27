@@ -1,16 +1,13 @@
-# prima
+# Prime Multiplication Table
 
-prime number multiplication table! :)
+Prime number multiplication table! :)
 
 ## Usage
+
+After cloning the code, convert it to a jar file and execute. You can also do a small shell script that does the java -jar call for you.
+
+```bash
+lein uberjar
+java -jar <uberjar-standalone-file> <optional-n>
 ```
-lein run
-```
-
-## License
-
-Copyright © 2019 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
-# prima
+Without the optional-n, you will get a multiplication table of 10 primes. If you specify n, you will get that many primes.
